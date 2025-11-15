@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RiskWatch RTM</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              background: 'hsl(222.2 84% 4.9%)',
+              foreground: 'hsl(210 40% 98%)',
+              card: 'hsl(222.2 84% 4.9%)',
+              'card-foreground': 'hsl(210 40% 98%)',
+              popover: 'hsl(222.2 84% 4.9%)',
+              'popover-foreground': 'hsl(210 40% 98%)',
+              primary: 'hsl(210 40% 98%)',
+              'primary-foreground': 'hsl(222.2 47.4% 11.2%)',
+              secondary: 'hsl(217.2 32.6% 17.5%)',
+              'secondary-foreground': 'hsl(210 40% 98%)',
+              muted: 'hsl(217.2 32.6% 17.5%)',
+              'muted-foreground': 'hsl(215 20.2% 65.1%)',
+              accent: 'hsl(217.2 32.6% 17.5%)',
+              'accent-foreground': 'hsl(210 40% 98%)',
+              destructive: 'hsl(0 62.8% 30.6%)',
+              'destructive-foreground': 'hsl(0 85.7% 97.3%)',
+              border: 'hsl(217.2 32.6% 17.5%)',
+              input: 'hsl(217.2 32.6% 17.5%)',
+              ring: 'hsl(212.7 26.8% 83.9%)',
+            },
+            borderRadius: {
+              lg: `0.5rem`,
+              md: `calc(0.5rem - 2px)`,
+              sm: `calc(0.5rem - 4px)`,
+            },
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "recharts": "https://aistudiocdn.com/recharts@^3.4.1",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.553.0",
+    "clsx": "https://aistudiocdn.com/clsx@^2.1.1",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+    "tailwind-merge": "https://aistudiocdn.com/tailwind-merge@^3.4.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-background text-foreground">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "name": "RiskWatch RTM",
+  "description": "A fully working, production-style Real-Time Transaction Risk Monitoring Tool to monitor financial transactions in real time, score risk, raise alerts, and help analysts investigate.",
+  "requestFramePermissions": []
+}
