@@ -90,8 +90,7 @@ The application will automatically log you in and direct you to the dashboard.
 
 The codebase is organized into a logical and scalable structure:
 
-/
-├── components/ # Reusable UI components (e.g., Button, Card, DataTable)
+/├── components/ # Reusable UI components (e.g., Button, Card, DataTable)
 │ ├── auth/
 │ ├── charts/
 │ ├── filters/
