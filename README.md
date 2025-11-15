@@ -89,3 +89,19 @@ The application will automatically log you in and direct you to the dashboard.
 ## 📂 Project Structure
 
 The codebase is organized into a logical and scalable structure:
+
+/
+├── components/ # Reusable UI components (e.g., Button, Card, DataTable)
+│ ├── auth/
+│ ├── charts/
+│ ├── filters/
+│ ├── layout/
+│ └── ui/
+├── constants.tsx # App-wide constants (nav items, styles, etc.)
+├── context/ # Global state management (AppContext, SocketContext)
+├── hooks/ # Custom React hooks (e.g., useAppContext)
+├── lib/ # Utility functions (cn, formatting, etc.)
+├── pages/ # Top-level page components for each route
+├── types.ts # All TypeScript type definitions and interfaces
+├── App.tsx # Main application component with routing
+└── index.tsx # Entry point of the React application
